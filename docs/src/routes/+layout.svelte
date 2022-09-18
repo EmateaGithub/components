@@ -18,13 +18,13 @@
 
 <style>
     :root {
-        --c-bg: hsl(0, 0%, 87%);
+        --c-bg: hsl(270, 8%, 28%);
         --c-bg-border: hsl(0, 0%, 75%);
-        --c-banner: hsl(215, 100%, 10%);
+        --c-banner: hsl(270, 8%, 15%);
         --c-banner-text: hsl(0, 0%, 100%);
-        --c-content: hsl(0, 0%, 100%);
+        --c-content: hsl(25, 17%, 90%);
         --c-content-text: hsl(0, 0%, 16%);
-        --c-content-off: hsl(0, 0%, 97%);
+        --c-content-off: hsl(25, 17%, 96%);
         --c-primary: hsl(210, 68%, 45%);
         --c-secondary: hsl(262, 58%, 58%);
         --c-code-bg: hsl(0, 0%, 93%);
