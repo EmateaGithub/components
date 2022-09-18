@@ -1,7 +1,12 @@
 {
   "name": "@ematea/em-time",
   "version": "0.0.1",
-  "description": "",
+  "description": "Represents a time written in Ematean format",
+  "keywords": [
+    "ematea",
+    "time",
+    "format"
+  ],
   "type": "module",
   "main": "lib/em-time.js",
   "module": "lib/em-time.js",
@@ -10,7 +15,6 @@
     "build": "pnpm clean && tsc",
     "test": "pnpm build && wtr --node-resolve --port 10002 ./**/*.spec.js"
   },
-  "keywords": [],
   "author": {
     "name": "Timothy Foster",
     "url": "https://auroratide.com"
