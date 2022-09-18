@@ -1,0 +1,24 @@
+{
+  "name": "@ematea/em-time",
+  "version": "0.0.1",
+  "description": "",
+  "type": "module",
+  "main": "lib/em-time.js",
+  "module": "lib/em-time.js",
+  "scripts": {
+    "clean": "rm -rf lib",
+    "build": "pnpm clean && tsc",
+    "test": "pnpm build && wtr --node-resolve --port 10002 ./**/*.spec.js"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Timothy Foster",
+    "url": "https://auroratide.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@open-wc/testing": "^3.1.6",
+    "@web/test-runner": "^0.14.0",
+    "typescript": "^4.7.4"
+  }
+}

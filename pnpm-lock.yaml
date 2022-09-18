@@ -8,6 +8,16 @@ importers:
     devDependencies:
       '@changesets/cli': 2.24.4
 
+  components/em-time:
+    specifiers:
+      '@open-wc/testing': ^3.1.6
+      '@web/test-runner': ^0.14.0
+      typescript: ^4.7.4
+    devDependencies:
+      '@open-wc/testing': 3.1.6
+      '@web/test-runner': 0.14.0
+      typescript: 4.8.2
+
   components/example-component:
     specifiers:
       '@open-wc/testing': ^3.1.6
@@ -18,6 +28,7 @@ importers:
 
   docs:
     specifiers:
+      '@ematea/em-time': workspace:^0.0.1
       '@ematea/example-component': workspace:^0.0.1
       '@sveltejs/adapter-auto': next
       '@sveltejs/adapter-static': 1.0.0-next.41
@@ -30,6 +41,7 @@ importers:
       vite: ^3.1.0-beta.1
       vite-plugin-markdown: ^2.1.0
     dependencies:
+      '@ematea/em-time': link:../components/em-time
       '@ematea/example-component': link:../components/example-component
     devDependencies:
       '@sveltejs/adapter-auto': 1.0.0-next.75

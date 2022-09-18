@@ -23,6 +23,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@ematea/em-time": "workspace:^0.0.1",
 		"@ematea/example-component": "workspace:^0.0.1"
 	}
 }
