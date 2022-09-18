@@ -1,6 +1,6 @@
 {
   "name": "@ematea/em-time",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Represents a time written in Ematean format",
   "keywords": [
     "ematea",
